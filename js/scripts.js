@@ -5,9 +5,13 @@ $(document).ready(function() {
     if (company === "big") {
       $("#csharp").show();
       $("#ruby").hide();
-    } else if (company === "Snakes") {
+      $("#react").hide();
+
+    } else if (company === "small") {
       $("#ruby").show();
       $("#csharp").hide();
+      $("#react").hide();
+
     };
     event.preventDefault();
   })

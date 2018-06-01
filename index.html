@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+small<!DOCTYPE html>
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -16,22 +16,81 @@
       </div>
       <div class="well">
         <form id="radio">
-          <h1>Select a preferred company size:</h1>
+          <h3>Select a preferred company size:</h3>
           <div class="radio">
             <label>
               <input type="radio" name="company" value="big">
-              Large Company
+              Big Tech Company
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="company" value="Snakes">
+              <input type="radio" name="company" value="small">
               Start-up or smaller company
             </label>
           </div>
+
+          <h3>Which end: do you prefer front-end or back-end development</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="end" value="frontend">
+              Front-End
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="end" value="backend">
+              Back-End
+            </label>
+          </div>
+
+          <h3>What do you want to make?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="prog" value="program">
+              Stand-alone computer program
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="prog" value="webapp">
+              Web app
+            </label>
+          </div>
+
+          <h3>When selecting a Legos piece, which is more important?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="lego" value="shape">
+              Shape of the piece. I don't care what the color is as long as it works with what I'm building.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="lego" value="color">
+              Color, I'll use several smaller pieces to fit if the color is right.
+            </label>
+          </div>
+
+          <h3>How do you feel about MicroSoft?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="micro" value="love">
+              I like MicroSoft
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="micro" value="hate">
+              I don't care for MicroSoft
+            </label>
+          </div>
+
           <button type="submit" class="btn btn-primary">Show me!</button>
         </form>
       </div>
+
+
       <div class="well">
         <div class="center">
           <div id="csharp">
@@ -40,6 +99,11 @@
           </div>
           <div id="ruby">
             <h2>Ruby/Rails</h2>
+          </div>
+
+          </div>
+          <div id="react">
+            <h2>CSS/React</h2>
           </div>
 
         </div>
