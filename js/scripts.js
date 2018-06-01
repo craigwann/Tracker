@@ -19,24 +19,29 @@ $(document).ready(function() {
       $("#csharp").hide();
       $("#react").hide();
 
-    } else if (end === "front" && ) {
-      $("#ruby").show();
+    } else if (end === "front" && prog ==="webapp" && lego ==="color") {
+      $("#react").show();
       $("#csharp").hide();
+      $("#ruby").hide();
+
+    } else if (prog === "program") {
+      $("#csharp").show();
+      $("#ruby").hide();
       $("#react").hide();
 
-    } else if (company === "small") {
-      $("#ruby").show();
+    } else if (lego === "color" || end === "front") {
+      $("#react").show();
       $("#csharp").hide();
+      $("#ruby").hide();
+
+    } else if (micro === "love") {
+      $("#csharp").show();
+      $("#ruby").hide();
       $("#react").hide();
 
-    } else if (company === "small") {
-      $("#ruby").show();
-      $("#csharp").hide();
-      $("#react").hide();
-
-    } else if (company === "small") {
-      $("#ruby").show();
-      $("#csharp").hide();
+    } else (micro === "love") {
+      $("#csharp").show();
+      $("#ruby").hide();
       $("#react").hide();
 
     };
