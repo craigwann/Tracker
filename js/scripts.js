@@ -1,14 +1,14 @@
 $(document).ready(function() {
-  $("#survey").submit(function(event) {
-    // var inputCoSize = $("input#coSize").val();
-    var inputCoSize = $("input:radio[name=inputCoSize]:checked").val();
+  $("#radio").submit(function(event) {
+    var animal = $("input:radio[name=animal]:checked").val();
 
-    // $(".coSize").text(inputcoSize);
-    if (inputCoSize === big) {
-    $("#csharp").show();
-  } else {
-    $("#csharp").hide();
-  };
+    if (animal === "Frogs") {
+      $("#frogs").show();
+      $("#snakes").hide();
+    } else if (animal === "Snakes") {
+      $("#snakes").show();
+      $("#frogs").hide();
+    };
     event.preventDefault();
   })
 

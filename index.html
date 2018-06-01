@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Track Sugester</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/animals.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <!-- <script src="js/scripts.js"></script> -->
+    <script src="js/animals.js"></script>
+    <title>Tracker</title>
   </head>
   <body>
     <div class="container">
+
       <div class="jumbotron">
-        <img src="img/coding.png">
-        <h1>Find a programming track for you:</h1>
+        <h1>Tracker</h1>
       </div>
       <div class="well">
-        <h5>What size of company would you like to work for?</h5>
-        <form id="survey">
+        <form id="radio">
+          <h1>Select an animal</h1>
           <div class="radio">
             <label>
-              <input type="radio" name="coSize" value="big">
-              Large Company
+              <input type="radio" name="animal" value="Frogs">
+              Frogs
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="coSize" value="small">
-              Start-up or smaller company
+              <input type="radio" name="animal" value="Snakes">
+              Snakes
             </label>
           </div>
-
-          <button type="submit" class="btn btn-primary">Submit!</button>
+          <button type="submit" class="btn btn-primary">Show me!</button>
         </form>
-
-      </div>  <!---well END--->
-
+      </div>
       <div class="well">
-        <div id="csharp">
-          <h1>Results:</h1>
-          <p>C#/.NET</p>
+        <div class="center">
+          <div id="frogs">
+            <h1>Frogs</h1>
+            <img src="img/frogs.jpg">
+            <h2>Beautiful Frogs</h2>
+
+          </div>
+          <div id="snakes">
+            <h1>Snakes</h1>
+            <img src="img/snakes.jpg">
+            <h2>Slitherin' Snakes</h2>
+
+          </div>
+
         </div>
-      </div> <!---well2 END--->
-
-
-    </div> <!---container END--->
-
+      </div>
+    </div>
   </body>
 </html>
