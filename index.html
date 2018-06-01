@@ -2,30 +2,31 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/animals.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/animals.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Tracker</title>
   </head>
   <body>
     <div class="container">
 
       <div class="jumbotron">
+        <img src="img/coding.png">
         <h1>Tracker</h1>
       </div>
       <div class="well">
         <form id="radio">
-          <h1>Select an animal</h1>
+          <h1>Select a preferred company size:</h1>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Frogs">
-              Frogs
+              <input type="radio" name="company" value="big">
+              Large Company
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Snakes">
-              Snakes
+              <input type="radio" name="company" value="Snakes">
+              Start-up or smaller company
             </label>
           </div>
           <button type="submit" class="btn btn-primary">Show me!</button>
@@ -33,17 +34,12 @@
       </div>
       <div class="well">
         <div class="center">
-          <div id="frogs">
-            <h1>Frogs</h1>
-            <img src="img/frogs.jpg">
-            <h2>Beautiful Frogs</h2>
+          <div id="csharp">
+            <h2>C#/.NET</h2>
 
           </div>
-          <div id="snakes">
-            <h1>Snakes</h1>
-            <img src="img/snakes.jpg">
-            <h2>Slitherin' Snakes</h2>
-
+          <div id="ruby">
+            <h2>Ruby/Rails</h2>
           </div>
 
         </div>

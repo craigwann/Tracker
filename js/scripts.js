@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $("#radio").submit(function(event) {
-    var animal = $("input:radio[name=animal]:checked").val();
+    var company = $("input:radio[name=company]:checked").val();
 
-    if (animal === "Frogs") {
-      $("#frogs").show();
-      $("#snakes").hide();
-    } else if (animal === "Snakes") {
-      $("#snakes").show();
-      $("#frogs").hide();
+    if (company === "big") {
+      $("#csharp").show();
+      $("#ruby").hide();
+    } else if (company === "Snakes") {
+      $("#ruby").show();
+      $("#csharp").hide();
     };
     event.preventDefault();
   })
