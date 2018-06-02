@@ -7,8 +7,6 @@ $(document).ready(function() {
     var micro = $("input:radio[name=micro]:checked").val();
 
 
-
-
     if (company === "big" && end === "back" && micro === "love") {
       $("#csharp").show();
       $("#ruby").hide();
@@ -38,12 +36,6 @@ $(document).ready(function() {
       $("#csharp").show();
       $("#ruby").hide();
       $("#react").hide();
-
-    } else (micro === "love") {
-      $("#csharp").show();
-      $("#ruby").hide();
-      $("#react").hide();
-
     };
     event.preventDefault();
   })
